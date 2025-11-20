@@ -1,9 +1,11 @@
+import Card from "@/app/components/card/card";
+
 export default function Traffic() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        대시보드/트래픽
-      </main>
-    </div>
+    <main className="grid gap-3 xl:grid-cols-3 lg:grid-cols-3  sm:grid-cols-2">
+      <Card>
+        <div>dd</div>
+      </Card>
+    </main>
   );
 }
