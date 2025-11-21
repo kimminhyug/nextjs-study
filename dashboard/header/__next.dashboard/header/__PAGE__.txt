@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"buildId":"iDccQmiP449M5-O3bcBdH","rsc":["$","$1","c",{"children":[["$","header",null,{"className":"flex h-16 p-3","children":["헤더",["$","div",null,{"className":"ml-auto","children":"우측"}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+4:null

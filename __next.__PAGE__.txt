@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[5500,["/_next/static/chunks/c51779bde68fe02d.js"],"Image"]
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+:HL["/test2/window.svg","image"]
+0:{"buildId":"iDccQmiP449M5-O3bcBdH","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black","children":["$","main",null,{"className":"flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start","children":[["$","$L2",null,{"src":"test2/window.svg","alt":"test2","width":100,"height":50}],["$","img",null,{"src":"/test2/window.svg"}]]}]}],[["$","script","script-0",{"src":"/_next/static/chunks/c51779bde68fe02d.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null
