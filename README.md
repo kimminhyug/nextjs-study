@@ -2,6 +2,15 @@
 
   [`Live Demo`](https://nextjs-study-gold.vercel.app/dashboard/traffic)
 
+  
+# 구현 페이지
+
+- 간단한 대시보드를 구현중
+  - SSR + CSR을 혼합한 구조로 생각중이고 간단한 지표와 레이아웃은 SSR로 처리하며, API 호출 차트 렌더링 등은 CSR로 처리 예정
+  - 사용자에게 위젯등 레이아웃과, 간단한 지표들을 빠르게 화면에 제공 할 수 있고, 그외 api 호출, 차트 렌더링은 클라이언트에서 진행
+
+<img width="100%" height="891" alt="Image" src="https://github.com/user-attachments/assets/4c1006d7-018c-49c6-880a-675ddd4c258b" />
+
 # 예약 파일
 
 - page.tsx(각 경로의 페이지 담당)
@@ -137,10 +146,3 @@ import { notFound } from "next/navigation";
 
 - 루트 경로 기준 구성, URL: `/`
 
-# 구현 페이지
-
-- 간단한 대시보드를 구현중
-  - SSR + CSR을 혼합한 구조로 생각중이고 간단한 지표와 레이아웃은 SSR로 처리하며, API 호출 차트 렌더링 등은 CSR로 처리 예정
-  - 사용자에게 위젯등 레이아웃과, 간단한 지표들을 빠르게 화면에 제공 할 수 있고, 그외 api 호출, 차트 렌더링은 클라이언트에서 진행
-
-<img width="100%" height="399" alt="Image" src="https://github.com/user-attachments/assets/d1a422c1-781d-4b8b-a2b5-e6ea3a9f0b4e" />
