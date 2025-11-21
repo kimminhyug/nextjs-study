@@ -6,18 +6,21 @@ export const MenuLi = ({
   menu,
   children,
   className = "",
-  disableHover = false,
+  enableHover = true,
+  onClick,
 }: {
+  onClick?: () => void;
   className?: string;
   menu?: IMenuItem;
   children?: ReactNode;
-  disableHover?: boolean;
+  enableHover?: boolean;
 }) => {
   return (
     <li
-      className={`cursor-pointer ${className} ${
-        !disableHover && "hover:bg-amber-200"
-      }`}
+      onClick={onClick}
+      className={`cursor-pointer py-1 
+     px-1   
+        ${className} ${enableHover && "hover:font-bold hover:bg-menu-hover"}`}
     >
       {menu?.label && <Link href={menu.url || "#"}>{menu.label}</Link>}
 

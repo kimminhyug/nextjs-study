@@ -8,11 +8,18 @@ const config = {
     extend: {
       borderColor: {
         card: "var(--card-border)",
+        content: "var(--content-border)",
       },
       colors: {
         primary: "#2563EB",
         secondary: "#64748B",
         accent: "#FACC15",
+        menu: "var(--menu-color)",
+      },
+      backgroundColor: {
+        menu: "var(--menu-background)",
+        "menu-hover": "var(--menu-hover-background)",
+        content: "var(--content-background)",
       },
       spacing: {
         128: "32rem",

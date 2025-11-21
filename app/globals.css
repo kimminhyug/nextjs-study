@@ -2,9 +2,14 @@
 @config "../tailwind.config.js";
 
 :root {
-  --background: #ffffff;
+  --background: #f7f7f7;
   --foreground: #171717;
   --card-border: #e0e0e0;
+  --menu-background: #0070f3;
+  --menu-hover-background: #0053b9;
+  --menu-color: white;
+  --content-border: #c9c2c2;
+  --content-background: white;
 }
 
 @theme inline {

@@ -37,10 +37,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased w-full h-screen flex `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased w-full h-screen  `}
       >
-        <Menu menuList={menu}></Menu>
-        <div className="w-full">{children}</div>
+        <div className="flex w-full h-full p-3">
+          <Menu menuList={menu}></Menu>
+          <div className="w-full p-3 border border-content bg-content rounded-xl shadow-xl ml-3 ">
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );

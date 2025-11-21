@@ -7,10 +7,10 @@ export const MenuItem = ({ menu }: { menu: IMenuItem }) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <MenuLi disableHover>
-      <div onClick={() => setOpen(!open)}>
+    <MenuLi enableHover={false}>
+      <MenuLi className="hover:bg-menu-hover" onClick={() => setOpen(!open)}>
         {menu.label} {open ? "▾" : "▸"}
-      </div>
+      </MenuLi>
       {open && menu.children?.length && (
         <ul>
           {menu.children.map((children) => (
