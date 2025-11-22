@@ -1,5 +1,5 @@
 import { Label } from "@/app/components/text/label";
-import { ITextWidget } from "./types";
+import { ITextWidgetProps } from "./types";
 import { WidgetWrapper } from "./widget-wrapper";
 
 export const TextWidget = ({
@@ -8,7 +8,7 @@ export const TextWidget = ({
   subText,
   circleColor,
   className = "",
-}: ITextWidget) => {
+}: ITextWidgetProps) => {
   return (
     <WidgetWrapper
       label={label}

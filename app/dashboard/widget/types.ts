@@ -7,7 +7,12 @@ export type WidgetProps = CardLabelProps & {
   children?: ReactNode;
 };
 
-export interface ITextWidget extends WidgetProps {
+export interface ITextWidgetProps extends WidgetProps {
+  text: string;
+  subText: string;
+}
+
+export interface ILineChartWidgetProps extends WidgetProps {
   text: string;
   subText: string;
 }

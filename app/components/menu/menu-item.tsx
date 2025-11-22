@@ -7,7 +7,7 @@ export const MenuItem = ({ menu }: { menu: IMenuItem }) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <MenuLi enableHover={false}>
+    <>
       <MenuLi className="hover:bg-menu-hover" onClick={() => setOpen(!open)}>
         {menu.label} {open ? "▾" : "▸"}
       </MenuLi>
@@ -18,6 +18,6 @@ export const MenuItem = ({ menu }: { menu: IMenuItem }) => {
           ))}
         </ul>
       )}
-    </MenuLi>
+    </>
   );
 };

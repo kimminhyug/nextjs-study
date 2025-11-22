@@ -18,11 +18,15 @@ export const MenuLi = ({
   return (
     <li
       onClick={onClick}
-      className={`cursor-pointer py-1 
+      className={`cursor-pointer py-1 w-full
      px-1   
         ${className} ${enableHover && "hover:font-bold hover:bg-menu-hover"}`}
     >
-      {menu?.label && <Link href={menu.url || "#"}>{menu.label}</Link>}
+      {menu?.label && (
+        <Link className="w-full inline-block" href={menu.url || "#"}>
+          {menu.label}
+        </Link>
+      )}
 
       {children && children}
     </li>

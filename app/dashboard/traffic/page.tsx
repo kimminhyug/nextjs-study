@@ -2,6 +2,7 @@ import { Button } from "@/app/components/button/button";
 import Card from "@/app/components/card/card";
 import { CardLabel } from "@/app/components/card/card-label";
 import { Label } from "@/app/components/text/label";
+import { LineChartWidget } from "../widget/chart/line-chart-widget";
 import { TextWidget } from "../widget/text-widget";
 
 export default function Traffic() {
@@ -70,6 +71,7 @@ export default function Traffic() {
           subText={kpi.subText}
         />
       ))}
+      <LineChartWidget text={""} subText={""} label={""} />
     </main>
   );
 }
