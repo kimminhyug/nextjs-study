@@ -1,4 +1,5 @@
 import { CardLabelProps } from "@/app/components/card/types";
+import { CustomChartProps } from "@/app/components/chart/types";
 import { ReactNode } from "react";
 
 export type WidgetProps = CardLabelProps & {
@@ -15,4 +16,5 @@ export interface ITextWidgetProps extends WidgetProps {
 export interface ILineChartWidgetProps extends WidgetProps {
   text: string;
   subText: string;
+  chartProps?: CustomChartProps;
 }

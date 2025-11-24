@@ -11,6 +11,8 @@ import {
   Tooltip,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
+import { ILineChartProps } from "./types";
+
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -21,7 +23,7 @@ ChartJS.register(
   Legend
 );
 
-export default function LineChart() {
+export default function LineChart(_props: ILineChartProps) {
   const labels = [
     "January",
     "February",
@@ -63,8 +65,7 @@ const options = {
       position: "top" as const,
     },
     title: {
-      display: true,
-      text: "2025년 월별 방문자 수",
+      display: false,
     },
   },
 };

@@ -50,7 +50,7 @@ export default function Traffic() {
       <Card className="flex col-span-full  text-white bg-emerald-600">
         <div className="flex flex-col gap-3">
           <CardLabel label={"User Life Cycle"} />
-          <Label text="2025-11-21 ~ 2025-12-21" />
+          <Label text="2025-11-21 ~ 2025-12-21" />v
         </div>
         <div className="ml-auto content-center">
           <Button
@@ -71,7 +71,7 @@ export default function Traffic() {
           subText={kpi.subText}
         />
       ))}
-      <LineChartWidget text={""} subText={""} label={""} />
+      <LineChartWidget text={""} subText={""} label={"2025년 월별 방문자 수"} />
     </main>
   );
 }

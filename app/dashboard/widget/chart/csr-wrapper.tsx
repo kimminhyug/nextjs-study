@@ -1,15 +1,15 @@
 "use client";
+import { CustomChartProps } from "@/app/components/chart/types";
 import dynamic from "next/dynamic";
-import { ILineChartWidgetProps } from "../types";
 
 const LineChartCSR = dynamic(() => import("@/app/components/chart/line"), {
   ssr: false,
 });
 
-export const CsrWrapper = ({}: ILineChartWidgetProps) => {
+export const CsrWrapper = (props: CustomChartProps) => {
   return (
     <>
-      <LineChartCSR />
+      <LineChartCSR {...(props || {})} />
     </>
   );
 };

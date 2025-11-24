@@ -5,10 +5,11 @@ import { CsrWrapper } from "./csr-wrapper";
 export const LineChartWidget = ({
   label,
   className = "",
+  chartProps = {},
 }: ILineChartWidgetProps) => {
   return (
     <WidgetWrapper label={label} className={className}>
-      <CsrWrapper text={""} subText={""} label={""} />
+      <CsrWrapper {...chartProps} />
     </WidgetWrapper>
   );
 };
