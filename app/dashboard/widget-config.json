@@ -1,0 +1,52 @@
+{
+  "widgets": [
+    {
+      "id": "widget-1",
+      "type": "text",
+      "label": "총 사용자",
+      "circleColor": "#3b82f6",
+      "dataKey": "totalUsers",
+      "className": ""
+    },
+    {
+      "id": "widget-2",
+      "type": "text",
+      "label": "활성 사용자",
+      "circleColor": "#10b981",
+      "dataKey": "activeUsers",
+      "className": ""
+    },
+    {
+      "id": "widget-3",
+      "type": "text",
+      "label": "페이지뷰",
+      "circleColor": "#f59e0b",
+      "dataKey": "pageViews",
+      "className": ""
+    },
+    {
+      "id": "widget-4",
+      "type": "line-chart",
+      "label": "트래픽 추이",
+      "circleColor": "#8b5cf6",
+      "dataKey": "trafficChart",
+      "className": "col-span-1"
+    },
+    {
+      "id": "widget-5",
+      "type": "line-chart",
+      "label": "사용자 증가율",
+      "circleColor": "#ef4444",
+      "dataKey": "userGrowthChart",
+      "className": ""
+    },
+    {
+      "id": "widget-6",
+      "type": "text",
+      "label": "평균 세션 시간",
+      "circleColor": "#06b6d4",
+      "dataKey": "avgSessionTime",
+      "className": ""
+    }
+  ]
+}

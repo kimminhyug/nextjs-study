@@ -8,8 +8,10 @@ export const LineChartWidget = ({
   chartProps = {},
 }: ILineChartWidgetProps) => {
   return (
-    <WidgetWrapper label={label} className={className}>
-      <CsrWrapper {...chartProps} />
+    <WidgetWrapper label={label} className={`${className} h-[300px]`}>
+      <div className="flex-1 min-h-0">
+        <CsrWrapper {...chartProps} />
+      </div>
     </WidgetWrapper>
   );
 };
